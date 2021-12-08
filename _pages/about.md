@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 
 Researcher in machine learning, statistics, signal processing, and artificial intelligence: [loop](https://loop.frontiersin.org/people/277873/overview).
 
-I obtained my Ph.D. from the University of Florida under the supervision of [Dr. Jose C. Principe](https://www.ece.ufl.edu/people/faculty/jose-c-principe/);
-M.S. in EE from the University of Hawaii under the supervision of [Dr. Aleksandar Kavcic](https://www.ece.cmu.edu/directory/bios/kavcic-aleksandar.html);
-undergraduate research from the University of Toronto under the supervision of [Dr. Amr S. Helmy](https://www.ece.utoronto.ca/people/helmy-a/).
+I obtained my Ph.D. from the University of Florida under the supervision of [Dr. José C. Príncipe](https://www.ece.ufl.edu/people/faculty/jose-c-principe/);
+M.S. from the University of Hawaii under the supervision of [Dr. Aleksandar Kavčić](https://www.ece.cmu.edu/directory/bios/kavcic-aleksandar.html); and
+B.AS. from the University of Toronto with undergraduate research under the supervision of [Dr. Amr S. Helmy](https://www.ece.utoronto.ca/people/helmy-a/).
 

@@ -67,7 +67,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-rss_icon: false
+rss_icon: true
 
 contact_note: >
   Connect via [LinkedIn](https://www.linkedin.com/in/drkanli).

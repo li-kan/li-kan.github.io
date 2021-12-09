@@ -2,7 +2,7 @@
 layout: about
 title: Senior Research Scientist/Principal Lead for New Product Development
 permalink: /
-description: <a href="https://www.hemotag.com/">Aventusoft Inc.</a> Senior Research Scientist and Principal Lead for New Product Development 
+description:
 
 profile:
   align: right

@@ -106,7 +106,7 @@
       {% if entry.pdf contains '://' %}
       <a href="{{ entry.audio }}" class="btn btn-sm z-depth-0" role="button">AUDIO</a>
       {% else %}
-      <a href="{{ entry.audio | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      <a href="{{ entry.audio | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">AUDIO</a>
       {% endif %}
     {% endif %}  
     {% if entry.supp %}

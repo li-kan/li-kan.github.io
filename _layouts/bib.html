@@ -102,6 +102,13 @@
       <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
       {% endif %}
     {% endif %}
+    {% if entry.audio %}
+      {% if entry.pdf contains '://' %}
+      <a href="{{ entry.audio }}" class="btn btn-sm z-depth-0" role="button">AUDIO</a>
+      {% else %}
+      <a href="{{ entry.audio | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      {% endif %}
+    {% endif %}  
     {% if entry.supp %}
       {% if entry.supp contains '://' %}
       <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>

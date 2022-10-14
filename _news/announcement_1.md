@@ -4,4 +4,4 @@ date: 2022-10-14 15:59:00-0400
 inline: true
 ---
 
-Our paper, [ECG Fiducial Points Localization Using a Deep Learning Model], has been accepted for oral presentation at the IEEE ICLMA 2022.
+Our paper, [ECG Fiducial Points Localization Using a Deep Learning Model], has been accepted for oral presentation at the [IEEE ICMLA 2022](https://www.icmla-conference.org/icmla22/).

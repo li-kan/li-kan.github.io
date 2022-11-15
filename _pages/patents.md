@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-* Kan Li and Kaustubh Kale, **System and method for non-invasive assessment of elevated left ventricular end-diastolic pressure (LVEDP)**, US CIP Patent App. No.PAT0009CIP2, 2022.
+* Kan Li and Kaustubh Kale, **System and Method for Non-Invasive Assessment of Elevated Left Ventricular End-Diastolic Pressure (LVEDP)**, US CIP Patent App. No.PAT0009CIP2, 2022.
 
 * Kan Li and Jose C. Principe, [**System to Automatically Compose Universal Filters**](https://patents.google.com/patent/US10778194B2), US Patent US10778194B2, 2020.
 

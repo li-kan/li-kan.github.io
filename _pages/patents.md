@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-* Kan Li and Kaustubh Kale, **System and Method for Non-Invasive Assessment of Elevated Left Ventricular End-Diastolic Pressure (LVEDP)**, US CIP Patent App. No.PAT0009CIP2, 2022.
+* Kan Li and Kaustubh Kale, **System and Method for Non-Invasive Assessment of Elevated Left Ventricular End-Diastolic Pressure (LVEDP)**, US Patent App. No.PAT0009CIP2, 2022.
 
 * Kan Li and Jose C. Principe, [**System to Automatically Compose Universal Filters**](https://patents.google.com/patent/US10778194B2), US Patent US10778194B2, 2020.
 
@@ -19,6 +19,6 @@ nav_order: 5
 
 * R. E. Mueller, A. Shivji, and Kan Li, [**Remote Crane Bar Code System**](https://patents.google.com/patent/US7721967B2), US Patent No.: US7721967B2, 2010.
 
-* Kan Li, T. MacDougall, and D. Sloan, [**System and Method for Tube Scarf Detection**](https://patents.google.com/patent/US20080144918A1), US Patent Appl. No.:  US20080144918A1, 2008.
+* Kan Li, T. MacDougall, and D. Sloan, [**System and Method for Tube Scarf Detection**](https://patents.google.com/patent/US20080144918A1), US Patent App. No.:  US20080144918A1, 2008.
 
 * Kan Li, T. MacDougall, and D. Sloan, [**System and Method for Tube Scarf Detection**](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2008034248), World Intellectual Property Organization, Pub. No.:  WO/2008/034248, 2008.

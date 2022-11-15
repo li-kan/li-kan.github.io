@@ -165,3 +165,66 @@
   doi={10.1109/ICASSP.2017.7952652},
   abstract = {Automatic insect recognition (AIR), using noninvasive methods in situ, has far-reaching implications in entomology, agriculture, and disease control and prevention. An emerging technology in computational entomology uses flight information captured by laser sensors. Current methods treat these optical signals as static patterns, rather than time series. We propose a novel approach to AIR by evaluating each insect passage as a nonstationary process involving a sequence of pseudo-acoustic frames and modeling the short-term flight dynamics using the kernel adaptive autoregressive-moving average (KAARMA) algorithm. Since flight behavior is both nonlinear and nonstationary in nature, dynamic modeling provides a general framework that fully exploits the transitional and contextual information. Results show KAARMA classifier outperforms the state-of-the-art AIR methods, using support vector machine (SVM), deep-learning autoencoder, and batch learning, in identifying Zika vector mosquito Aedes aegypti among five species of flying insects, while using significantly more efficient data representation.},
   HTML = {https://ieeexplore.ieee.org/document/7952652}}
+  
+   @ARTICLE{7536645,
+  author={You, Xinge and Guo, Weigang and Yu, Shujian and Li, Kan and Príncipe, José C. and Tao, Dacheng},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Kernel Learning for Dynamic Texture Synthesis}, 
+  year={2016},
+  volume={25},
+  number={10},
+  pages={4782-4795},
+  doi={10.1109/TIP.2016.2598653},
+  abstract = {Dynamic textures (DTs) that represent moving scenes such as flames, smoke, and waves, exhibit fixed dynamics within a period of time and have been successfully modeled using linear dynamic systems (LDS). In this paper, we show that the widely used LDS model can be approximated using a principal component regression (PCR) model with the main advantage of simplicity. Furthermore, to capture the nonlinearity of training frames, we extend traditional PCR to its kernelized version and introduce kernel principal component regression (KPCR) to model and synthesize DTs. To ensure algorithm stability, we remove the standard state model and directly apply the quantized kernel least mean squares algorithm from signal processing domain to approximate the performance achieved with KPCR. We term this improvement kernel adaptive dynamic texture synthesis (KADTS), which also has the benefits of computational and memory efficiency. These advantages make KADTS ideally suited for real-world applications, since the majority of electronic devices, including cell phones and laptops, suffer from limited memory and real-time constraints. We demonstrate, via both theoretical and experimental analyses, the connections between DT synthesis using KPCR and KADTS with a regularization network theory. We also show the superiority of our proposed algorithms for DT synthesis compared with other dynamic system-based benchmarks. MATLAB code is available from our project homepage http://bmal.hust.edu.cn/project/dts.html.},
+  HTML = {https://ieeexplore.ieee.org/document/7536645}
+  }
+ 
+@ARTICLE{10.3389/fnins.2016.00028,
+  AUTHOR={Dura-Bernal, Salvador and Li, Kan and Neymotin, Samuel A. and Francis, Joseph T. and Principe, Jose C. and Lytton, William W.},   
+  TITLE={Restoring Behavior via Inverse Neurocontroller in a Lesioned Cortical Spiking Model Driving a Virtual Arm},      
+  JOURNAL={Frontiers in Neuroscience},      
+  VOLUME={10},           
+  YEAR={2016},           
+  DOI={10.3389/fnins.2016.00028},      
+  ISSN={1662-453X},   
+  ABSTRACT={Neural stimulation can be used as a tool to elicit natural sensations or behaviors by modulating neural activity. This can be potentially used to mitigate the damage of brain lesions or neural disorders. However, in order to obtain the optimal stimulation sequences, it is necessary to develop neural control methods, for example by constructing an inverse model of the target system. For real brains, this can be very challenging, and often unfeasible, as it requires repeatedly stimulating the neural system to obtain enough probing data, and depends on an unwarranted assumption of stationarity. By contrast, detailed brain simulations may provide an alternative testbed for understanding the interactions between ongoing neural activity and external stimulation. Unlike real brains, the artificial system can be probed extensively and precisely, and detailed output information is readily available. Here we employed a spiking network model of sensorimotor cortex trained to drive a realistic virtual musculoskeletal arm to reach a target. The network was then perturbed, in order to simulate a lesion, by either silencing neurons or removing synaptic connections. All lesions led to significant behvaioral impairments during the reaching task. The remaining cells were then systematically probed with a set of single and multiple-cell stimulations, and results were used to build an inverse model of the neural system. The inverse model was constructed using a kernel adaptive filtering method, and was used to predict the neural stimulation pattern required to recover the pre-lesion neural activity. Applying the derived neurostimulation to the lesioned network improved the reaching behavior performance. This work proposes a novel neurocontrol method, and provides theoretical groundwork on the use biomimetic brain models to develop and evaluate neurocontrollers that restore the function of damaged brain regions and the corresponding motor behaviors.},
+  HTML={https://www.frontiersin.org/articles/10.3389/fnins.2016.00028},  
+}
+
+@ARTICLE{7097067,
+  author={Li, Kan and Príncipe, José C.},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={The Kernel Adaptive Autoregressive-Moving-Average Algorithm}, 
+  year={2016},
+  volume={27},
+  number={2},
+  pages={334-346},
+  doi={10.1109/TNNLS.2015.2418323},
+  abstract={In this paper, we present a novel kernel adaptive recurrent filtering algorithm based on the autoregressive-moving-average (ARMA) model, which is trained with recurrent stochastic gradient descent in the reproducing kernel Hilbert spaces. This kernelized recurrent system, the kernel adaptive ARMA (KAARMA) algorithm, brings together the theories of adaptive signal processing and recurrent neural networks (RNNs), extending the current theory of kernel adaptive filtering (KAF) using the representer theorem to include feedback. Compared with classical feedforward KAF methods, the KAARMA algorithm provides general nonlinear solutions for complex dynamical systems in a state-space representation, with a deferred teacher signal, by propagating forward the hidden states. We demonstrate its capabilities to provide exact solutions with compact structures by solving a set of benchmark nondeterministic polynomial-complete problems involving grammatical inference. Simulation results show that the KAARMA algorithm outperforms equivalent input-space recurrent architectures using first- and second-order RNNs, demonstrating its potential as an effective learning solution for the identification and synthesis of deterministic finite automata.},
+  HTML={https://ieeexplore.ieee.org/document/7097067}
+  }
+  
+  @INPROCEEDINGS{7146663,
+  author={Li, Kan and Dura-Bernal, Salvador and Francis, Joseph T. and Lytton, William W. and Príncipe, José C.},
+  booktitle={2015 7th International IEEE/EMBS Conference on Neural Engineering (NER)}, 
+  title={Repairing lesions via kernel adaptive inverse control in a biomimetic model of sensorimotor cortex}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={478-481},
+  doi={10.1109/NER.2015.7146663},
+  abstract={In this paper we propose a kernel adaptive filtering (KAF) approach to repairing lesions via microstimulation in a biomimetic spiking neural network of sensorimotor cortex. The fundamental challenge of designing neuroprosthetics and brain machine interfaces (BMIs) is the decoding of electrical activity of neurons and behavior. For injured or damaged brain, intracranial stimulation has the potential to modulate neural activity to match meaningful and natural response or behavior. In order to optimize the microstimulation sequences, we construct an inverse model of the target system. However, to obtain sufficient learning data, the neural system must be stimulated or probed extensively. For real brains, this is especially challenging and often unfeasible. Here, we demonstrate that by applying KAF to a biomimetic brain and realistic virtual musculoskeletal model, we can repair simulated lesion and drive a virtual arm to perform the correct motor task.},
+  HTML={https://ieeexplore.ieee.org/abstract/document/7146663}}
+  
+  @INPROCEEDINGS{https://doi.org/10.1186/1471-2202-15-S1-P106,
+  author={Dura-Bernal, Salvador and Li, Kan and Brockmeier, Austin J. and Kerr, Cliff C. and Neymotin, Samuel A. and Principe, Jose C. and Francis, Joseph T. and Lytton, William W.},
+  title={Modulation of virtual arm trajectories via microstimulation in a spiking model of sensorimotor cortex}
+  booktitle={BMC Neuroscience},
+  year={2014},
+  volume={15},
+  number={},
+  doi={10.1186/1471-2202-15-S1-P106},
+  abstract={Electrical microstimulation can be used to drive neural responses to match meaningful spiking patterns corresponding to natural sensory stimuli or motor behaviors. Optimizing microstimulation sequences requires repeatedly stimulating the neural system to obtain sufficient probing data to construct an inverse model. This is challenging in the real brain where probing time may be limited and plasticity may be induced. Biologically realistic models allow the system to be repeatedly probed and reset, providing a unique test bed for understanding the dynamic interaction between ongoing neural activity and artificially applied stimulation. Here, we employ a biomimetic spiking model (BMM) of sensorimotor cortex which controls a realistic virtual musculoskeletal arm that performs reaching movements. After training the BMM and virtual arm to reach a target, a set of 1536 microstimulation probing sequences were applied to the target sensory population. The output motor population activity and the virtual arm trajectories were recorded (Figure 1). Microstimulation was applied to each target neuron individually as well as to random subsets of multiple neurons simultaneously. Other parameters, such as the start time, duration, and amplitude of the stimulation, were also examined. Results demonstrated that microstimulation can differentially modulate the motor population which excites the arm muscles, and consequently, the hand trajectories. The results of the probing dataset will be used to build an inverse model of the neural system, which will be able to generate microstimulation patterns to repair simulated lesions in the model.},
+  HTML={https://bmcneurosci.biomedcentral.com/articles/10.1186/1471-2202-15-S1-P106}
+  }
+

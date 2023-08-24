@@ -5,3 +5,6 @@ inline: true
 ---
 
 We received the Frontiers of Science Award in Theoretical Computer and Information Sciences at [The International Congress for Basic Science](https://www.icbs.cn/en/web/index/18009_1581229__) on July 16, 2023.
+
+![image info](./assets/img/ICBSaward01.jpg)
+![image info](./assets/img/ICBSaward02.jpg)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I will give a talk on Functional Bayesian Filter at Zhejiang University on July 17, 2023.
+title: Functional Bayesian Filter talk at Zhejiang University on July 17, 2023.
 date: 2023-07-01 15:59:00-0400
 inline: false
 ---

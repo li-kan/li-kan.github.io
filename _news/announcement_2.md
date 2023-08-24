@@ -6,4 +6,4 @@ inline: false
 ---
 
 I will give a talk on Functional Bayesian Filter at Zhejiang University on July 17, 2023.
-![image info](https://li-kan.github.io/assets/img/zjuJuly2023.jpg)
+![image info](https://li-kan.github.io/assets/img/zjuJuly2023.JPG)
